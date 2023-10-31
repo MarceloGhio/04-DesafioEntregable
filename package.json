@@ -2,13 +2,15 @@
   "name": "4-desafioentregable",
   "version": "1.0.0",
   "description": "4°desafioEntregable",
-  "main": "index.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marcelo Ghio",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.2"
   }
 }
